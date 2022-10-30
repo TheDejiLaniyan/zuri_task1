@@ -4,15 +4,23 @@
   box-sizing: border-box;
 }
 
-.body{
+
+body {
   min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+
 
 html{
   box-sizing: border-box;
 }
 
-#profile__img{
+.profile__img{
   width: 64px;
   height: 64px;
   margin-top: 32px;  
@@ -22,20 +30,30 @@ html{
   border-radius: 50%;
 }
 
-#twitter{
+/* .column-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.back-button{
+  position: relative;
+  left: 65%;
+  top: -60px;
+  padding: 4px;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #EAECF0 ;
+}
+
+.twitter{
   font-weight: 700;
   font-size: 20px;
-  line-height: 30px;
   color: #101828;
-  
-
 }
 
 .Annette-Black{
   text-align: center;
-  margin-top: auto;
-  top: 176px;
-    padding: 10px;
 }
 
 .button{
@@ -57,4 +75,30 @@ html{
   display: flex;
   text-decoration: none;
   margin-top: 24px;
+}
+
+.connect-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social{
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px 50px;
+}
+
+.zuri{
+  padding-right:  350px ;
+}
+
+.I4G{
+  padding-left: 350px;
 }

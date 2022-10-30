@@ -1,16 +1,26 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import MyImage from '../Images/dejii.webp'
+import ProfilePicture from '../Images/dejii.webp'
+import BackButton from '../Images/Icon2.png'
+import Slack from '../Images/slack.png'
+import Github from '../Images/Icon.png'
+import I4G from '../Images/I4G.png'
+import Zuri from '../Images/Vector.png'
 
 const HomePage = () => {
   return (
     <>
-       <div className='body'>
-       <Image rounded
-                id='profile__img'        
-                alt='src' src={MyImage}/>
+            <Image rounded
+                id='profile__img'
+                className='profile__img'        
+                alt='src' src={ProfilePicture}/>
+
+             <Image
+             className='back-button'
+             src={BackButton}
+             /> 
         <div className='Annette-Black'>
-          <p id='twitter'>Annette Black</p>
+          <p id='twitter' className='twitter'>Adedeji Laniyan</p>
           <p hidden id='slack'>adedeji.laniyan</p>
         </div>
         
@@ -44,8 +54,26 @@ const HomePage = () => {
             Design Books
           </button>
         </a>
+
+        <div className='connect-social'>
+          <Image 
+                className='social'
+                src={Slack}/>
+          <Image
+                className='social'
+                src={Github}/>
+        </div>
+
+        <footer className='footer'>
+            <Image
+                  src={Zuri}
+                  className='zuri'/>
+            <p>HNG Internship 9 Frontend Task</p>
+            <Image
+                  src={I4G}
+                  className='I4G'/>
+        </footer>
         
-       </div>
     </>        
     )
 }
