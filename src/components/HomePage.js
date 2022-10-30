@@ -10,15 +10,14 @@ import Zuri from '../Images/Vector.png'
 const HomePage = () => {
   return (
     <>
-            <Image rounded
-                id='profile__img'
-                className='profile__img'        
-                alt='src' src={ProfilePicture}/>
-
-             <Image
-             className='back-button'
-             src={BackButton}
-             /> 
+    <div className='body'>
+      
+          <Image
+            id='profile__img'
+            className='profile__img'
+            alt='src' src={ProfilePicture}/>
+              <Image className='icon'
+                  src={BackButton}/> 
         <div className='Annette-Black'>
           <p id='twitter' className='twitter'>Adedeji Laniyan</p>
           <p hidden id='slack'>adedeji.laniyan</p>
@@ -73,6 +72,7 @@ const HomePage = () => {
                   src={I4G}
                   className='I4G'/>
         </footer>
+    </div>
         
     </>        
     )

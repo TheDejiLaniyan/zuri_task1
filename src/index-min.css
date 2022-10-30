@@ -1,3 +1,48 @@
-@media screen and (max-width: 800px) {
-    
+@media screen and (max-width: 1152px) {
+    .body{
+        width: 100%;
+    }
+
+    .profile__img{
+        width: 88px;
+        height: 88px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .icon{
+        position: absolute;
+        left: 85%;
+        top: 20px;
+        padding: 4px;
+        border-radius: 50%;
+        border: 1px dotted;
+        border-color: #EAECF0 ;
+        content: url('../src/Images/share.png');
+      }
+
+
+      .button{
+        background: #EAECF0;
+        border-color: #EAECF0;
+        margin: auto;
+        text-align: center;
+        height: 78px;
+        border-radius: 8px;
+        align-items: center;
+        width: 90%;
+    }
+
+    .footer{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .zuri{
+        padding: 10px 0px 10px;
+      }
+      
+      .I4G{
+        padding: 10px 0px 10px;
+      }
 }
